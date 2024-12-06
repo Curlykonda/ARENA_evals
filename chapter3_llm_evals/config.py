@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-# ANTHROPIC_KEY = os.getenv('ANTHROPIC_API_KEY')
+ANTHROPIC_KEY = os.getenv('ANTHROPIC_API_KEY')
 OPENAI_KEY = os.getenv('OPENAI_API_KEY')
 # GITHUB_TOKEN = os.getenv('GITHUB_TOKEN')
 
